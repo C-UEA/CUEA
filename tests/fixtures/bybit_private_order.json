@@ -1,0 +1,14 @@
+{
+  "topic": "order",
+  "data": [
+    {
+      "order_id": "by123",
+      "symbol": "BTCUSDT",
+      "side": "Buy",
+      "price": "29500",
+      "qty": "0.001",
+      "filled_qty": "0",
+      "order_status": "New"
+    }
+  ]
+}

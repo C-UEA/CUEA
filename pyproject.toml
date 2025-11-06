@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c-uea"
+version = "0.1.0a1"
+description = "Crypto Unified Exchange Adapters — async-first unified models and modular exchange adapters."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10,<3.13"
+authors = [{ name = "QuantFolks" }]
+maintainers = [{ name = "QuantFolks" }]
+keywords = ["crypto", "exchange", "websocket", "async", "trading", "finance"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Internet :: WWW/HTTP",
+]
+
+dependencies = [
+  "aiohttp>=3.8.1",
+  "pydantic>=1.10",
+  "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+marketspec = ["marketspec>=1.0.1"]
+yaml = ["PyYAML>=6.0"]
+dev = [
+  "pytest>=7.0",
+  "pytest-asyncio>=0.20.0",
+  "ruff>=0.0.0",
+  "mypy>=1.0",
+  "sphinx>=5.0"
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

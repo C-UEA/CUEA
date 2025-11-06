@@ -1,0 +1,13 @@
+{
+  "topic": "position",
+  "data": [
+    {
+      "symbol": "BTCUSDT",
+      "size": "0.005",
+      "entry_price": "29000",
+      "unrealised_pnl": "12.5",
+      "leverage": "10",
+      "liquidation_price": "15000"
+    }
+  ]
+}

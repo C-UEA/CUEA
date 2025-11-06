@@ -1,0 +1,15 @@
+# example per-exchange config file
+# Place per-exchange override keys under the exchange name.
+binance:
+  base_url: "https://api.binance.com"
+  rate_limit:
+    capacity: 10
+    refill_rate: 10
+  max_retries: 3
+
+bybit:
+  base_url: "https://api.bybit.com"
+  rate_limit:
+    capacity: 8
+    refill_rate: 8
+  max_retries: 3
