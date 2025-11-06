@@ -1,4 +1,4 @@
-# cuea — Crypto Unified Exchange Adapters
+# CEUA — Crypto Unified Exchange Adapters
 
 Lightweight async adapters that present a small, unified interface over exchange REST/WS endpoints.
 Designed for algorithmic trading tools and integration tests.
