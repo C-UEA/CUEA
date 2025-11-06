@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "c-uea"
-version = "0.1.0a1"
+name = "cuea"
+version = "0.1.1"
 description = "Crypto Unified Exchange Adapters — async-first unified models and modular exchange adapters."
 readme = "README.md"
 license = { text = "MIT" }
